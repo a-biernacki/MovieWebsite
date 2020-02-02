@@ -1,0 +1,156 @@
+#parent{
+    display: grid;
+    grid-template-areas:
+    "home home"
+    "aboutMeImage aboutMeDesctiption"
+    "divider divider"
+    "aboutMeHeader aboutMeHeader"
+    "country animal";
+}
+
+#background{
+    background-image: url(../Images/roseGold.jpg);
+}
+
+#home {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    grid-column: 1 / 3;
+
+}
+
+#aboutMeImage{
+    grid-column: 1 / 2;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#aboutMeDescription{
+    grid-column: 2 / 3;
+    margin-top: 1rem;
+}
+
+#divider{
+    grid-column: 1 / 3;
+    background-color: lightgrey;
+    max-height: .25rem;
+    margin-top: .5rem;
+}
+
+#aboutMeHeader{
+    grid-column: 1 / 3;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+#country{
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#animal{
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#personalHeader{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#firstName{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lastName{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+#firstName, #lastName{
+    display: inline;
+}
+
+#coffeeAddict{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+    margin: 0px;
+}
+
+#school{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+}
+
+#idNum{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0rem;
+    margin-left: 6rem;
+}
+
+#myCountry{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#favAnimal{
+    font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a:link{
+    font-size: 1rem;
+    color: rgb(46, 46, 46);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:visited{
+    font-size: 1rem;
+    color: midnightblue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1rem;
+    color: midnightblue;
+    background-color: white;
+    border-color: midnightblue;
+    border: 2px solid midnightblue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a:active{
+    font-size: 1rem;
+    color: white;
+    background-color: midnightblue;
+    border: 2px solid midnightblue;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 100px;
+}
